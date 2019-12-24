@@ -7,5 +7,21 @@
     "start": "node index"
   },
   "author": "Austin Kershaw",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://AustinKershaw/env-globals.git"
+  },
+  "keywords": [
+    "env-globals",
+    "dotenv",
+    "env",
+    "globals",
+    "globaly",
+    ".env",
+    "environment",
+    "variables",
+    "config",
+    "settings"
+  ]
 }
