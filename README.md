@@ -4,4 +4,4 @@
 
 ## Conflicts:
 
-In case of conflicts that arise, no existing variable will be overwritten. Firstly flags are set, so if there are variable names already globaly set that are conflicting, then these conflicting flag variables are ignored. Next the variables from the .env file(if exists) are added to the global object, unless theres an existing variable with the same name, at which point it will be ignored. Then finally we do the same for the variables in process.env.
+In case of conflicts that arise, no existing variable will be overwritten. Firstly flags are set, so if there are variable names already globaly set that are conflicting, then these conflicting flag variables are ignored. Next we do the same for the variables from the .env file(if exists), these are added to the global object unless theres an existing variable with the same name, at which point it will be ignored. Then finally we do the same again for the variables in process.env.
