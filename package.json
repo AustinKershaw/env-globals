@@ -1,6 +1,6 @@
 {
   "name": "env-globals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "All flags and env variables are added to the global object, from both process an a .env file if it exists.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://AustinKershaw/env-globals.git"
+    "url": "https://github.com/AustinKershaw/env-globals"
   },
   "keywords": [
     "env-globals",
